@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  min-width: 400px;
+}
+
+#input-el {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+  border: 1px solid #1749ed;
+  border-radius: 10px;
+}
+
+#input-btn,
+#delete-btn,
+#savetab-btn {
+  background: #1749ed;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+#input-btn:hover,
+#delete-btn:hover,
+#savetab-btn:hover {
+  background-color: #9e00be;
+  cursor: pointer;
+  color: white;
+}
+
+#delete-btn {
+  background-color: white;
+  color: #1749ed;
+  border: 1px solid #1749ed;
+}
+
+#box {
+  text-align: center;
+  margin: 20px auto;
+  width: 200px;
+  box-sizing: border-box;
+  padding: 40px;
+  background: rgb(99, 18, 212);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+img {
+  width: 100%
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 10px
+}
+
+table tr td {
+  border: 1px solid #e5d0f0;
+}
